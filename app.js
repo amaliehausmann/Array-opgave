@@ -16,7 +16,7 @@ console.log(shiftArray.shift());
 let unshiftArray = ['a', 'b', 'c'];
 console.log(unshiftArray);
 unshiftArray.unshift('d');
-console.log(unshiftArray)
+console.log(unshiftArray);
 
 // Array Slice splitter et array, hvor det første tal er start punktet, 
 // det vil sige, at alle elementer i arrayet før index nr. 1 er fjernet, 
@@ -26,5 +26,5 @@ let sliceArray = ['a', 'b', 'c', 'd', 'e'];
 console.log(sliceArray.slice(1, 4));
 
 // For each udfører en funktion en gang per element i et array
-let forEachArray = ['a', 'b', 'c']
+let forEachArray = ['a', 'b', 'c'];
 forEachArray.forEach((element) =>  console.log(element));
